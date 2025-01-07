@@ -19,37 +19,6 @@ import pickle
 
 cm = 1/2.54
 
-mpl.rcParams['xtick.direction'] = 'in'
-mpl.rcParams['ytick.direction'] = 'in'
-mpl.rcParams['font.family'] = 'sans-serif'
-mpl.rcParams['font.sans-serif'] = ['Arial']
-mpl.rcParams['axes.linewidth'] = 0.5
-mpl.rcParams['axes.labelpad'] = 2
-mpl.rcParams['axes.xmargin'] = 0
-mpl.rcParams['axes.ymargin'] = 0
-plt.rcParams['axes.autolimit_mode'] = 'round_numbers'
-
-mpl.rcParams.update({"figure.figsize" : (9*cm,6*cm),
-                 "figure.subplot.left" : 0.125, "figure.subplot.right" : 0.946,
-                 "figure.subplot.bottom" : 0.125, "figure.subplot.top" : 0.965,
-                 "axes.autolimit_mode" : "round_numbers",
-                 "xtick.major.size"     : 5,
-                 "xtick.minor.size"     : 3,
-                 "xtick.major.width"    : 0.5,
-                 "xtick.minor.width"    : 0.5,
-                 "xtick.major.pad"      : 2,
-                 "xtick.minor.visible" : True,
-                 "ytick.major.size"     : 5,
-                 "ytick.minor.size"     : 3,
-                 "ytick.major.width"    : 0.5,
-                 "ytick.minor.width"    : 0.5,
-                 "ytick.major.pad"      : 2,
-                 "ytick.minor.visible" : True,
-                 "lines.markersize" : 5,
-                 "lines.markerfacecolor" : "none",
-                 "lines.markeredgewidth"  : 0.8})
-plt.rcParams.update({'font.size': 8})
-
 # In[2]:
 
 import tensorflow.keras
